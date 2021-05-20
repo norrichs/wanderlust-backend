@@ -1,6 +1,6 @@
 const mongoose = require('../db/connection')
 const {Schema,model }= mongoose
-const songSchema = new Schema({
+const tripSchema = new Schema({
     title: String,
     artist: String,
     time: String
@@ -8,6 +8,6 @@ const songSchema = new Schema({
 )
 
                            //collections- by default will make a lowercase
-const Song = model('Song',songSchema )
+const Trip = model('Trip',tripSchema )
 //export the schema 
-module.exports = Song
+module.exports = Trip
