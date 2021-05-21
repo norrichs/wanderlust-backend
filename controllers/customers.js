@@ -1,38 +1,38 @@
 const express = require('express')
 const router = express.Router()
-const Trips = require('../models/trips')
+const Customer = require('../models/customer')
 
 ///GET///
 router.get('/', async (req, res) => {
-    const allTripss = await Trips.find({})
+    const allCustomers = await Customer.find({})
     res.json({
         status: 200,
-        data: allTripss
+        data: allCustomers
     })
 })
 
 /// POST ///
 router.post('/', async (req, res) => {
-    const allTripss = await Trips.create(req.body)
+    const customer = await Customer.create(req.body)
     res.json({
         status: 200,
         msg: "data received",
-        data: allTripss
+        data: customer
     })
 })
 
 /// PUT ///
 router.put('/:id', async (req, res) => {
-    const Trips = await Trips.findByIdAndUpdate(req.params.id, req.body, {new: true})
+    const customer = await Customer.findByIdAndUpdate(req.params.id, req.body, {new: true})
     res.json({
         status: 200,
-        data: Trips
+        data: customer
     })
 })
 
 /// DELETE ///
 router.delete('/:id', async (req, res) => {
-    await Trips.findByIdAndDelete(req.params.id)
+    await Customer.findByIdAndDelete(req.params.id)
         res.json({
             status: 200,
         });

@@ -1,13 +1,17 @@
 const mongoose = require('../db/connection')
 const {Schema,model }= mongoose
-const tripSchema = new Schema({
-    title: String,
-    artist: String,
-    time: String
-},{timestamps:true}
-)
+const customerSchema = new Schema({
+    username: String,
+    password: String,
+    name: {
+        first: String,
+        last: String
+    },
+    email: String,
+    booked: [String]
+})
 
                            //collections- by default will make a lowercase
-const Trip = model('Trip',tripSchema )
+const Customer = model('Customer', customerSchema )
 //export the schema 
-module.exports = Trip
+module.exports = Customer
