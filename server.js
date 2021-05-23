@@ -4,7 +4,7 @@ const mongoose = require("./db/connection");
 
 const agencyController = require("./controllers/agencies")
 const customerController = require("./controllers/customers")
-const reviewController = require("./controllers/review")
+const reviewController = require("./controllers/reviews")
 const tripsController = require("./controllers/trips")
 
 const app = express();
@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
     res.json({ hello: "Hello World!" });
   });
 
-app.use("/agency", customerController)
+app.use("/agency", agencyController)
 app.use("/customer", customerController)
 app.use("/review", reviewController)
 app.use('/trip', tripsController)

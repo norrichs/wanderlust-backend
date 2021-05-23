@@ -8,7 +8,10 @@ const customerSchema = new Schema({
         last: String
     },
     email: String,
-    booked: [String]
+    booked_trips: [{
+        ref: "Trip",
+        type: mongoose.Schema.Types.ObjectId
+    }]
 })
 
                            //collections- by default will make a lowercase
