@@ -6,7 +6,16 @@ const tripSchema = new Schema({
     photo: String,
     description: String,
     activities: String,
-    cost: String
+    cost: String,
+    location: {
+        // Location data stored as GeoJSON object
+        //  https://docs.mongodb.com/manual/geospatial-queries/
+        // to calculated distances, this would need to be converted to a 2dsphere
+        name: String,
+        type: "Point",  
+        // 2D coordinates listed as [longitude, lattitude]
+        coordinates: [Number, Number] 
+    }
 })
 
                            //collections- by default will make a lowercase
