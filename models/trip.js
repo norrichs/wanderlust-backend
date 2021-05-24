@@ -15,7 +15,15 @@ const tripSchema = new Schema({
         type: "Point",  
         // 2D coordinates listed as [longitude, lattitude]
         coordinates: [Number, Number] 
-    }
+    },
+    agency: {
+        ref: "Agency",
+        type: mongoose.Schema.Types.ObjectId
+    },
+    reviews: [{
+        ref: "Review",
+        type: mongoose.Schema.Types.ObjectId
+    }]
 })
 
                            //collections- by default will make a lowercase
