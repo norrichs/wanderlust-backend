@@ -57,7 +57,7 @@ router.delete("/:id", async (req, res) => {
 	});
 });
 
-///  SHOW relations
+///  SHOW customer->trip relations
 router.get("/:id/trips", async (req, res) => {
 	console.log("customer / get populated trip data");
 	// Get the customer and retrieve the associated trips
@@ -77,7 +77,6 @@ router.get("/:id/trips", async (req, res) => {
 });
 
 /// UPDATE Bind trips to a customer ///
-//  TODO check for existing IDs
 router.put("/:id/addTrips", async (req, res) => {
 	console.log("customer / trip update");
 	const customer = await Customer.findById(req.params.id);

@@ -1,60 +1,24 @@
 [
 	{
-		"name": "Carnes Scuba Trip",
-		"photo": "https://prodivecairns.com/images/drone/prodive-drone-nov-2017-003-fullres.43.g.jpg",
-		"description": "Go scuba diving on a boat and see some fishes",
-		"activities": ["scuba diving", "boating"],
 		"location": {
-			"name": "Cairns QLD, Australia",
-			"type": "Point"
+			"name": "Cairns QLD, Australia"
 		},
-		"coordinates": [-16.8509347202358, 145.702737607069],
-		"agency": {
-			"ref": "Agency",
-			"type": "6546846116484684"
-		},
-		"reviews": [
-			{
-				"ref": "Review",
-				"type": "89646116268453526"
-			},
-			{
-				"ref": "Review",
-				"type": "68468468486184"
-			},
-			{
-				"ref": "Review",
-				"type": "6546546546156"
-			}
-		]
+		"activities": ["scuba diving", "boating"],
+		"reviews_ref": [],
+
+		"name": "Cairns Scuba Trip",
+		"photo": "https://prodivecairns.com/images/drone/prodive-drone-nov-2017-003-fullres.43.g.jpg",
+		"description": "Go scuba diving on a boat and see some fishes"
 	},
 	{
+		"location": {
+			"name": "Perth, NSW, Australia"
+		},
+		"activities": ["hiking", "sites"],
+		"reviews_ref": [],
+
 		"name": "Perth Hikes",
 		"photo": "https://prodivecairns.com/images/drone/prodive-drone-nov-2017-003-fullres.43.g.jpg",
-		"description": "Go hiking in Perth",
-		"activities": ["hiking", "sites"],
-		"location": {
-			"name": "Perth, NSW, Australia",
-			"type": "Point"
-		},
-		"coordinates": [-16.8509347202358, 145.702737607069],
-		"agency": {
-			"ref": "Agency",
-			"type": "6546846116484684"
-		},
-		"reviews": [
-			{
-				"ref": "Review",
-				"type": "89646116268453526"
-			},
-			{
-				"ref": "Review",
-				"type": "68468468486184"
-			},
-			{
-				"ref": "Review",
-				"type": "6546546546156"
-			}
-		]
+		"description": "Go hiking in Perth"
 	}
 ]

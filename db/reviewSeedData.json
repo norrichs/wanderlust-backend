@@ -1,15 +1,20 @@
 [
 	{
-		"author": "",
-		"body": "",
-		"stars": "",
-		"trip": {
-			"ref": "Trip",
-			"type": 65654681651
-		},
-		"customer": {
-			"ref": "Customer",
-			"type": 616464684
-		}
+		"author": "bnorrichs",
+		"body": "THis was an awesome trip.  Would do again",
+		"stars": 3,
+		"trip_name": "Everest"
+	},
+	{
+		"author": "bnorrichs",
+		"body": "i got sick",
+		"stars": 1,
+		"trip_name": "Cairns Scuba Trip"
+	},
+	{
+		"author": "bnorrichs",
+		"body": "So much fun",
+		"stars": 5,
+		"trip_name": "Perth Hikes"
 	}
 ]
