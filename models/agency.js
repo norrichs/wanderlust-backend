@@ -7,7 +7,15 @@ const agencySchema = new Schema({
         phone: String,
         email: String,
         url: String
-    } 
+    },
+    trips: [{
+        ref: "Trip",
+        type: mongoose.Schema.Types.ObjectId
+    }],
+    reviews: [{
+        ref: "Review",
+        type: mongoose.Schema.Types.ObjectId
+    }]
 })
 
                            //collections- by default will make a lowercase

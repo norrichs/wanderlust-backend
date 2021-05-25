@@ -7,6 +7,7 @@ const tripSchema = new Schema({
     description: String,
     activities: String,
     cost: String,
+    agency: String,
     location: {
         // Location data stored as GeoJSON object
         //  https://docs.mongodb.com/manual/geospatial-queries/

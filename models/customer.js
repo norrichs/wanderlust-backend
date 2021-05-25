@@ -11,6 +11,10 @@ const customerSchema = new Schema({
     booked_trips: [{
         ref: "Trip",
         type: mongoose.Schema.Types.ObjectId
+    }],
+    reviews: [{
+        ref: "Review",
+        type: mongoose.Schema.Types.ObjectId
     }]
 })
 

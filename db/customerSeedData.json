@@ -1,0 +1,31 @@
+[
+	{
+		"username": "bnorrichs",
+		"password": "ieatpaintchips",
+		"name": {
+			"first": "Ben",
+			"last": "Norrichs"
+		},
+		"email": "beanie@yahoo.com",
+		"booked-trips": [
+			{
+				"ref": "Trip",
+				"type": 645646546464
+			},
+			{
+				"ref": "Trip",
+				"type": 654681518464465
+			}
+		],
+		"reviews": [
+			{
+				"ref": "Review",
+				"type": 868614684354546
+			},
+			{
+				"ref": "Review",
+				"type": 9415646841546
+			}
+		]
+	}
+]
