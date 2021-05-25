@@ -1,0 +1,15 @@
+[
+	{
+		"author": "",
+		"body": "",
+		"stars": "",
+		"trip": {
+			"ref": "Trip",
+			"type": 65654681651
+		},
+		"customer": {
+			"ref": "Customer",
+			"type": 616464684
+		}
+	}
+]
