@@ -17,7 +17,7 @@ const tripSchema = new Schema({
 		// 2D coordinates listed as [longitude, lattitude]
 		// coordinates: [Number, Number]
 	},
-	agency_ref: {
+	agencies_ref: {
 	    ref: "Agency",
 	    type: mongoose.Schema.Types.ObjectId
 	},

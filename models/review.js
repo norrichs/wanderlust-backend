@@ -4,12 +4,12 @@ const reviewSchema = new Schema({
     author: String,
     body: String,
     stars: Number,
-    tripname: String,
-    trip_ref: [{
+    trip_name: String,
+    trips_ref: [{
         ref: "Trip",
         type: mongoose.Schema.Types.ObjectId
     }],
-    customer_ref: [{
+    customers_ref: [{
         ref: "Customer",
         type: mongoose.Schema.Types.ObjectId
     }]
