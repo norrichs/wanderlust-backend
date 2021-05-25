@@ -1,42 +1,50 @@
 const express = require('express')
 const router = express.Router()
-const Customer = require('../models/customer')
+const Agency = require('../models/agency')
 
 ///GET///
 router.get('/', async (req, res) => {
-    const allCustomers = await Customer.find({})
+    const allAgencies = await Agency.find({})
     res.json({
         status: 200,
-        data: allCustomers
+        data: allAgencies
+    })
+})
+
+/// SHOW ///
+router.get('/:id', async (req, res) => {
+    const agency = await Agency.findById(req.params.id)
+    res.json({
+        status: 200,
+        data: agency
     })
 })
 
 /// POST ///
 router.post('/', async (req, res) => {
-    const customer = await Customer.create(req.body)
+    const agency = await Agency.create(req.body)
     res.json({
         status: 200,
         msg: "data received",
-        data: customer
+        data: agency
     })
 })
 
 /// PUT ///
 router.put('/:id', async (req, res) => {
-    const customer = await Customer.findByIdAndUpdate(req.params.id, req.body, {new: true})
+    const agency = await Agency.findByIdAndUpdate(req.params.id, req.body, {new: true})
     res.json({
         status: 200,
-        data: customer
+        data: agency
     })
 })
 
 /// DELETE ///
 router.delete('/:id', async (req, res) => {
-    await Customer.findByIdAndDelete(req.params.id)
+    await Agency.findByIdAndDelete(req.params.id)
         res.json({
             status: 200,
         });
 })
-
 
 module.exports = router

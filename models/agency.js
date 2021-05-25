@@ -8,11 +8,11 @@ const agencySchema = new Schema({
         email: String,
         url: String
     },
-    trips: [{
+    trips_ref: [{
         ref: "Trip",
         type: mongoose.Schema.Types.ObjectId
     }],
-    reviews: [{
+    reviews_ref: [{
         ref: "Review",
         type: mongoose.Schema.Types.ObjectId
     }]

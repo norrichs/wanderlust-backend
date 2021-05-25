@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const Review = require('../models/review')
 
-///GET///
+///INDEX///
 router.get('/', async (req, res) => {
     const allReviews = await Review.find({})
     res.json({
@@ -11,7 +11,16 @@ router.get('/', async (req, res) => {
     })
 })
 
-/// POST ///
+/// SHOW ///
+router.get('/:id', async (req, res) => {
+    const review = await Review.findById(req.params.id)
+    res.json({
+        status: 200,
+        data: review
+    })
+})
+
+/// CREATE ///
 router.post('/', async (req, res) => {
     const review = await Review.create(req.body)
     res.json({
@@ -21,7 +30,7 @@ router.post('/', async (req, res) => {
     })
 })
 
-/// PUT ///
+/// UPDATE ///
 router.put('/:id', async (req, res) => {
     const review = await Review.findByIdAndUpdate(req.params.id, req.body, {new: true})
     res.json({
@@ -37,6 +46,8 @@ router.delete('/:id', async (req, res) => {
             status: 200,
         });
 })
+
+
 
 
 module.exports = router

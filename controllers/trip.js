@@ -1,41 +1,51 @@
 const express = require('express')
 const router = express.Router()
-const Agency = require('../models/agency')
+const Trip = require('../models/trip')
 
 ///GET///
 router.get('/', async (req, res) => {
-    const allAgencies = await Agency.find({})
+    const allTrips = await Trip.find({})
     res.json({
         status: 200,
-        data: allAgencies
+        data: allTrips
+    })
+})
+
+/// SHOW ///
+router.get('/:id', async (req, res) => {
+    const trip = await Trip.findById(req.params.id)
+    res.json({
+        status: 200,
+        data: trip
     })
 })
 
 /// POST ///
 router.post('/', async (req, res) => {
-    const agency = await Agency.create(req.body)
+    const trip = await Trip.create(req.body)
     res.json({
         status: 200,
         msg: "data received",
-        data: agency
+        data: trip
     })
 })
 
 /// PUT ///
 router.put('/:id', async (req, res) => {
-    const agency = await Agency.findByIdAndUpdate(req.params.id, req.body, {new: true})
+    const trip = await Trip.findByIdAndUpdate(req.params.id, req.body, {new: true})
     res.json({
         status: 200,
-        data: agency
+        data: trip
     })
 })
 
 /// DELETE ///
 router.delete('/:id', async (req, res) => {
-    await Agency.findByIdAndDelete(req.params.id)
+    await Trip.findByIdAndDelete(req.params.id)
         res.json({
             status: 200,
         });
 })
+
 
 module.exports = router

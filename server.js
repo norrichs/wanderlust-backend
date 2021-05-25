@@ -2,10 +2,10 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("./db/connection");
 
-const agencyController = require("./controllers/agencies")
-const customerController = require("./controllers/customers")
-const reviewController = require("./controllers/reviews")
-const tripsController = require("./controllers/trips")
+const agencyController = require("./controllers/agency")
+const customerController = require("./controllers/customer")
+const reviewController = require("./controllers/review")
+const tripsController = require("./controllers/trip")
 
 const app = express();
 const PORT = process.env.PORT
