@@ -2,30 +2,49 @@
 	{
 		"username": "bnorrichs",
 		"password": "ieatpaintchips",
-		"name": {
-			"first": "Ben",
-			"last": "Norrichs"
-		},
-		"email": "beanie@yahoo.com",
-		"booked-trips": [
-			{
-				"ref": "Trip",
-				"type": 645646546464
-			},
-			{
-				"ref": "Trip",
-				"type": 654681518464465
-			}
-		],
-		"reviews": [
-			{
-				"ref": "Review",
-				"type": 868614684354546
-			},
-			{
-				"ref": "Review",
-				"type": 9415646841546
-			}
+		"name": { "first": "Ben", "last": "Norrichs" },
+		"booked_trips": [
+			"Macaguanigua River",
+			"Máximo River",
+			"Yumurí River",
+			"Almendares River",
+			"El Yunque"
+		]
+	},
+	{
+		"username": "barbaro",
+		"password": "codeforfunandprofit",
+		"name": { "first": "Barbaro", "last": "Reyes" },
+		"booked_trips": [
+			"Río de la Palma",
+			"Toa River",
+			"Río de la Palma",
+			"Saramaguacán River",
+			"Yumurí River"
+		]
+	},
+	{
+		"username": "mika",
+		"password": "devwarrior2000",
+		"name": { "first": "Mika", "last": "Smith" },
+		"booked_trips": [
+			"Mayarí River",
+			"Mantua River",
+			"Mantua River",
+			"Gran Piedra",
+			"Tarará River"
+		]
+	},
+	{
+		"username": "daniel",
+		"password": "backenddaddy100",
+		"name": { "first": "Daniel", "last": "Gavin" },
+		"booked_trips": [
+			"Canímar River",
+			"Canímar River",
+			"Holguin",
+			"Holguin",
+			"Sagua la Chica River"
 		]
 	}
 ]

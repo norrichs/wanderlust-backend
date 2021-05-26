@@ -65,7 +65,7 @@ router.get("/:id/trips", async (req, res) => {
 		.populate("booked_trips_ref")
 		.exec((err, customer) => {
 			if (err) {
-                console.log(err )
+				console.log(err);
 				res.json({ status: 404, msg: "no booked trips" });
 			}
 			console.log("trips");
@@ -92,13 +92,13 @@ router.put("/:id/addTrips", async (req, res) => {
 		// Get all the ids in an array
 		const tripIds = trips.map((trip) => trip._id);
 		// push the retrieved trip ids onto the customer document
-		const updatedCustomer = await Customer.findByIdAndUpdate(
+		await Customer.findByIdAndUpdate(
 			req.params.id,
 			{ $addToSet: { booked_trips_ref: { $each: tripIds } } },
 			{ new: true }
 		);
 
-		await Customer.findById(req.params.id)
+		Customer.findById(req.params.id)
 			.populate("booked_trips_ref")
 			.exec((err, customer) => {
 				if (err) console.log("error", err);

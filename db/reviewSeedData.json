@@ -1,20 +1,206 @@
 [
 	{
-		"author": "bnorrichs",
-		"body": "THis was an awesome trip.  Would do again",
-		"stars": 3,
-		"trip_name": "Everest"
+		"author": "barbaro",
+		"body": "Had fun, ate good food!",
+		"stars": 5,
+		"trip_name": "Pico Turquino"
 	},
 	{
-		"author": "bnorrichs",
-		"body": "i got sick",
+		"author": "barbaro",
+		"body": "The beach was nice",
 		"stars": 1,
-		"trip_name": "Cairns Scuba Trip"
+		"trip_name": "El Yunque"
 	},
 	{
-		"author": "bnorrichs",
+		"author": "barbaro",
 		"body": "So much fun",
 		"stars": 5,
-		"trip_name": "Perth Hikes"
+		"trip_name": "Pan de Guajaibon"
+	},
+	{
+		"author": "barbaro",
+		"body": "Ugh, horrible",
+		"stars": 5,
+		"trip_name": "Gran Piedra"
+	},
+	{
+		"author": "barbaro",
+		"body": "I got sick and had to leave early",
+		"stars": 2,
+		"trip_name": "Rio Cauto"
+	},
+	{
+		"author": "barbaro",
+		"body": "Had fun, ate good food!",
+		"stars": 5,
+		"trip_name": "Rio Toa"
+	},
+	{
+		"author": "barbaro",
+		"body": "The beach was nice",
+		"stars": 1,
+		"trip_name": "Rio Almendares"
+	},
+	{
+		"author": "barbaro",
+		"body": "So much fun",
+		"stars": 5,
+		"trip_name": "Rio Yumuri"
+	},
+	{
+		"author": "barbaro",
+		"body": "Ugh, horrible",
+		"stars": 1,
+		"trip_name": "Jatibonico del Sur River"
+	},
+	{
+		"author": "mika",
+		"body": "I got sick and had to leave early",
+		"stars": 4,
+		"trip_name": "Sagua la Grande"
+	},
+	{
+		"author": "mika",
+		"body": "Best trip ever",
+		"stars": 1,
+		"trip_name": "Mantua River"
+	},
+	{
+		"author": "mika",
+		"body": "Me and my pals really enjoyed this",
+		"stars": 4,
+		"trip_name": "Jaimanitas River"
+	},
+	{
+		"author": "mika",
+		"body": "Horrible service, won't go back",
+		"stars": 5,
+		"trip_name": "Quibú River"
+	},
+	{
+		"author": "mika",
+		"body": "Best trip ever",
+		"stars": 5,
+		"trip_name": "Almendares River"
+	},
+	{
+		"author": "mika",
+		"body": "Me and my pals really enjoyed this",
+		"stars": 5,
+		"trip_name": "Luyanó River"
+	},
+	{
+		"author": "mika",
+		"body": "Horrible service, won't go back",
+		"stars": 5,
+		"trip_name": "Cojímar River"
+	},
+	{
+		"author": "mika",
+		"body": "Ugh, horrible",
+		"stars": 2,
+		"trip_name": "Bacuranao River"
+	},
+	{
+		"author": "ben",
+		"body": "I got sick and had to leave early",
+		"stars": 2,
+		"trip_name": "Tarará River"
+	},
+	{
+		"author": "ben",
+		"body": "Best trip ever",
+		"stars": 1,
+		"trip_name": "Yumurí River"
+	},
+	{
+		"author": "ben",
+		"body": "Me and my pals really enjoyed this",
+		"stars": 4,
+		"trip_name": "Canímar River"
+	},
+	{
+		"author": "ben",
+		"body": "Horrible service, won't go back",
+		"stars": 1,
+		"trip_name": "Río de la Palma"
+	},
+	{
+		"author": "ben",
+		"body": "Best trip ever",
+		"stars": 2,
+		"trip_name": "Sagua la Grande River"
+	},
+	{
+		"author": "ben",
+		"body": "Had fun, ate good food!",
+		"stars": 2,
+		"trip_name": "Sagua la Chica River"
+	},
+	{
+		"author": "ben",
+		"body": "The beach was nice",
+		"stars": 1,
+		"trip_name": "Río Jatibonico del Norte"
+	},
+	{
+		"author": "ben",
+		"body": "So much fun",
+		"stars": 3,
+		"trip_name": "Caonao River"
+	},
+	{
+		"author": "daniel",
+		"body": "Ugh, horrible",
+		"stars": 4,
+		"trip_name": "Máximo River"
+	},
+	{
+		"author": "daniel",
+		"body": "I got sick and had to leave early",
+		"stars": 4,
+		"trip_name": "Saramaguacán River"
+	},
+	{
+		"author": "daniel",
+		"body": "Best trip ever",
+		"stars": 4,
+		"trip_name": "Mayarí River"
+	},
+	{
+		"author": "daniel",
+		"body": "Me and my pals really enjoyed this",
+		"stars": 4,
+		"trip_name": "Toa River"
+	},
+	{
+		"author": "daniel",
+		"body": "Had fun, ate good food!",
+		"stars": 3,
+		"trip_name": "Macaguanigua River"
+	},
+	{
+		"author": "daniel",
+		"body": "The beach was nice",
+		"stars": 2,
+		"trip_name": "Holguin"
+	},
+	{
+		"author": "daniel",
+		"body": "So much fun",
+		"stars": 2,
+		"trip_name": "Havana"
+	},
+	{
+		"author": "daniel",
+		"body": "Ugh, horrible",
+		"stars": 4,
+		"trip_name": "Varadero"
+	},
+	{
+		"author": "daniel",
+		"body": "I got sick and had to leave early",
+		"stars": 5,
+		"trip_name": "Cayo Coco"
 	}
 ]
