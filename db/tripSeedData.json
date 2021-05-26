@@ -1,24 +1,304 @@
 [
 	{
-		"location": {
-			"name": "Cairns QLD, Australia"
-		},
-		"activities": ["scuba diving", "boating"],
-		"reviews_ref": [],
-
-		"name": "Cairns Scuba Trip",
-		"photo": "https://prodivecairns.com/images/drone/prodive-drone-nov-2017-003-fullres.43.g.jpg",
-		"description": "Go scuba diving on a boat and see some fishes"
+		"name": "Pico Turquino",
+		"activities": ["music", "hiking", "sight-seeing", "hiking"],
+		"agency": "Uranus Travel",
+		"location": { "name": "Pico Turquino" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
 	},
 	{
-		"location": {
-			"name": "Perth, NSW, Australia"
-		},
-		"activities": ["hiking", "sites"],
-		"reviews_ref": [],
-
-		"name": "Perth Hikes",
-		"photo": "https://prodivecairns.com/images/drone/prodive-drone-nov-2017-003-fullres.43.g.jpg",
-		"description": "Go hiking in Perth"
+		"name": "El Yunque",
+		"activities": ["swimming", "hiking", "rafting", "sight-seeing"],
+		"agency": "Asteroid Travel",
+		"location": { "name": "El Yunque" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Pan de Guajaibon",
+		"activities": ["fine-dining", "dancing", "horseback riding", "rafting"],
+		"agency": "Ceres Travel",
+		"location": { "name": "Pan de Guajaibon" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Gran Piedra",
+		"activities": ["hiking", "hang-gliding", "swimming", "shopping"],
+		"agency": "Ceres Travel",
+		"location": { "name": "Gran Piedra" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Rio Cauto",
+		"activities": ["hiking", "hang-gliding", "swimming", "museums"],
+		"agency": "Pluto Travel",
+		"location": { "name": "Rio Cauto" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Rio Toa",
+		"activities": [
+			"sight-seeing",
+			"sight-seeing",
+			"museums",
+			"hang-gliding"
+		],
+		"agency": "Asteroid Travel",
+		"location": { "name": "Rio Toa" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Rio Almendares",
+		"activities": [
+			"hiking",
+			"horseback riding",
+			"hang-gliding",
+			"hang-gliding"
+		],
+		"agency": "Neptune Travel",
+		"location": { "name": "Rio Almendares" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Rio Yumuri",
+		"activities": ["hiking", "hang-gliding", "surfing", "dancing"],
+		"agency": "Earth Travel",
+		"location": { "name": "Rio Yumuri" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Jatibonico del Sur River",
+		"activities": ["fine-dining", "music", "fine-dining", "hiking"],
+		"agency": "Neptune Travel",
+		"location": { "name": "Jatibonico del Sur River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Sagua la Grande",
+		"activities": ["sight-seeing", "shopping", "surfing", "fine-dining"],
+		"agency": "Neptune Travel",
+		"location": { "name": "Sagua la Grande" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Mantua River",
+		"activities": ["sight-seeing", "shopping", "surfing", "hang-gliding"],
+		"agency": "Europa Travel",
+		"location": { "name": "Mantua River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Jaimanitas River",
+		"activities": [
+			"hiking",
+			"sight-seeing",
+			"horseback riding",
+			"hang-gliding"
+		],
+		"agency": "Ganymede Travel",
+		"location": { "name": "Jaimanitas River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Quibú River",
+		"activities": ["music", "swimming", "dancing", "hang-gliding"],
+		"agency": "Io Travel",
+		"location": { "name": "Quibú River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Almendares River",
+		"activities": ["music", "swimming", "swimming", "horseback riding"],
+		"agency": "Mercury Travel",
+		"location": { "name": "Almendares River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Luyanó River",
+		"activities": ["rafting", "swimming", "hang-gliding", "rafting"],
+		"agency": "Uranus Travel",
+		"location": { "name": "Luyanó River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Cojímar River",
+		"activities": ["swimming", "shopping", "museums", "hang-gliding"],
+		"agency": "Venus Travel",
+		"location": { "name": "Cojímar River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Bacuranao River",
+		"activities": ["music", "fine-dining", "music", "surfing"],
+		"agency": "Mercury Travel",
+		"location": { "name": "Bacuranao River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Tarará River",
+		"activities": ["swimming", "surfing", "music", "shopping"],
+		"agency": "Ganymede Travel",
+		"location": { "name": "Tarará River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Yumurí River",
+		"activities": ["dancing", "horseback riding", "hiking", "hiking"],
+		"agency": "Uranus Travel",
+		"location": { "name": "Yumurí River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Canímar River",
+		"activities": ["museums", "rafting", "horseback riding", "swimming"],
+		"agency": "Ceres Travel",
+		"location": { "name": "Canímar River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Río de la Palma",
+		"activities": ["sight-seeing", "rafting", "sight-seeing", "hiking"],
+		"agency": "Uranus Travel",
+		"location": { "name": "Río de la Palma" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Sagua la Grande River",
+		"activities": ["sight-seeing", "hang-gliding", "hiking", "rafting"],
+		"agency": "Pluto Travel",
+		"location": { "name": "Sagua la Grande River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Sagua la Chica River",
+		"activities": ["sight-seeing", "music", "dancing", "rafting"],
+		"agency": "Ganymede Travel",
+		"location": { "name": "Sagua la Chica River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Río Jatibonico del Norte",
+		"activities": [
+			"museums",
+			"sight-seeing",
+			"hang-gliding",
+			"hang-gliding"
+		],
+		"agency": "Pluto Travel",
+		"location": { "name": "Río Jatibonico del Norte" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Caonao River",
+		"activities": ["surfing", "hang-gliding", "music", "dancing"],
+		"agency": "Pluto Travel",
+		"location": { "name": "Caonao River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Máximo River",
+		"activities": [
+			"dancing",
+			"fine-dining",
+			"horseback riding",
+			"swimming"
+		],
+		"agency": "Ganymede Travel",
+		"location": { "name": "Máximo River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Saramaguacán River",
+		"activities": [
+			"horseback riding",
+			"horseback riding",
+			"surfing",
+			"hiking"
+		],
+		"agency": "Uranus Travel",
+		"location": { "name": "Saramaguacán River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Mayarí River",
+		"activities": ["museums", "swimming", "museums", "horseback riding"],
+		"agency": "Pluto Travel",
+		"location": { "name": "Mayarí River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Toa River",
+		"activities": ["surfing", "swimming", "surfing", "sight-seeing"],
+		"agency": "Asteroid Travel",
+		"location": { "name": "Toa River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Macaguanigua River",
+		"activities": ["fine-dining", "shopping", "rafting", "museums"],
+		"agency": "Neptune Travel",
+		"location": { "name": "Macaguanigua River" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Holguin",
+		"activities": ["museums", "swimming", "horseback riding", "rafting"],
+		"agency": "Mars Travel",
+		"location": { "name": "Holguin" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Havana",
+		"activities": ["dancing", "dancing", "hiking", "surfing"],
+		"agency": "Ganymede Travel",
+		"location": { "name": "Havana" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Varadero",
+		"activities": ["sight-seeing", "hang-gliding", "rafting", "shopping"],
+		"agency": "Jupiter Travel",
+		"location": { "name": "Varadero" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
+	},
+	{
+		"name": "Cayo Coco",
+		"activities": ["hiking", "hang-gliding", "museums", "music"],
+		"agency": "Mars Travel",
+		"location": { "name": "Cayo Coco" },
+		"photo": "http://photo.com/pic.jpg",
+		"description": "A nice place to visit in Cuba"
 	}
 ]

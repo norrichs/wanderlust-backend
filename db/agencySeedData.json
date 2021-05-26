@@ -1,31 +1,132 @@
 [
 	{
-		"name": "Venus",
+		"name": "Mercury Travel",
 		"contact": {
-			"address": "123 Main St.",
-			"phone": "555-223-5555",
-			"email": "info@venustravel.net",
-			"url": "http://www.venustravel.net"
+			"address": "123 Planet Drive",
+			"phone": "555-433-6666",
+			"email": "info@mercurytravel.net",
+			"url": "https://www.mercurytravel.biz"
 		},
-		"trips": [
-			{
-				"ref": "Trip",
-				"type": 645646546464
-			},
-			{
-				"ref": "Trip",
-				"type": 654681518464465
-			}
-		],
-		"reviews": [
-			{
-				"ref": "Review",
-				"type": 868614684354546
-			},
-			{
-				"ref": "Review",
-				"type": 9415646841546
-			}
-		]
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/RZODSOHKA6O4VMNPPUW7GUTUBE-1024x1024.jpg"
+	},
+	{
+		"name": "Venus Travel",
+		"contact": {
+			"address": "324 Sky Drive",
+			"phone": "555-433-6666",
+			"email": "info@venustravel.net",
+			"url": "https://www.venustravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/LP5TMWXTF6VV6VQ6YDQGZ3YLQQ.jpg"
+	},
+	{
+		"name": "Earth Travel",
+		"contact": {
+			"address": "593 Space Lane",
+			"phone": "555-433-6666",
+			"email": "info@earthtravel.net",
+			"url": "https://www.earthtravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/57LV7D7YHYJ2BDWMUKBC3J5WG4-1024x1024.jpg"
+	},
+	{
+		"name": "Mars Travel",
+		"contact": {
+			"address": "4594 Celestial Avenue",
+			"phone": "555-433-6666",
+			"email": "info@marstravel.net",
+			"url": "https://www.marstravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Asteroid Travel",
+		"contact": {
+			"address": "443 Vacuum Street",
+			"phone": "555-433-6666",
+			"email": "info@asteroidtravel.net",
+			"url": "https://www.asteroidtravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Jupiter Travel",
+		"contact": {
+			"address": "9559 Sol Boulevard",
+			"phone": "555-433-6666",
+			"email": "info@jupitertravel.net",
+			"url": "https://www.jupitertravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Uranus Travel",
+		"contact": {
+			"address": "245 Empty Place",
+			"phone": "555-433-6666",
+			"email": "info@uranustravel.net",
+			"url": "https://www.uranustravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Neptune Travel",
+		"contact": {
+			"address": "310b Milky Way",
+			"phone": "555-433-6666",
+			"email": "info@neptunetravel.net",
+			"url": "https://www.neptunetravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Pluto Travel",
+		"contact": {
+			"address": "3453 Andromeda Galaxy",
+			"phone": "555-433-6666",
+			"email": "info@plutotravel.net",
+			"url": "https://www.plutotravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Ceres Travel",
+		"contact": {
+			"address": "885 Alpha Centauri Street",
+			"phone": "555-433-6666",
+			"email": "info@cerestravel.net",
+			"url": "https://www.cerestravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Ganymede Travel",
+		"contact": {
+			"address": "590 Oort Lane",
+			"phone": "555-433-6666",
+			"email": "info@ganymedetravel.net",
+			"url": "https://www.ganymedetravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Io Travel",
+		"contact": {
+			"address": "6433 LaGrange Point",
+			"phone": "555-433-6666",
+			"email": "info@iotravel.net",
+			"url": "https://www.iotravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
+	},
+	{
+		"name": "Europa Travel",
+		"contact": {
+			"address": "645 Gravity Well Court",
+			"phone": "555-433-6666",
+			"email": "info@europatravel.net",
+			"url": "https://www.europatravel.biz"
+		},
+		"logo": "https://www.popsci.com/app/uploads/2019/01/07/XYNJU7VV7ISTJ4HJLUR5ERUZOE.jpg"
 	}
 ]

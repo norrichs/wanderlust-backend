@@ -8,6 +8,7 @@ const agencySchema = new Schema({
         email: String,
         url: String
     },
+    logo: String,
     trips_ref: [{
         ref: "Trip",
         type: mongoose.Schema.Types.ObjectId
