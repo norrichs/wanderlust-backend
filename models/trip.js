@@ -3,7 +3,7 @@ const { Schema, model } = mongoose;
 
 const tripSchema = new Schema({
 	name: String,
-	photo: String,
+	photos: [String],
 	description: String,
 	activities: [String],
 	cost: String,
