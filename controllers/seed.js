@@ -34,13 +34,17 @@ router.get("/", async (req, res) => {
 
 		// initialize relations
 		trips.forEach((trip, i) => {
-			console.log(i, trip.name);
+			console.log('trip refs binding',i, trip.name);
 			initTrip(trip.id);
 		});
 		customers.forEach((customer, i) => {
-			console.log(i,customer.name);
+			console.log('customer refs binding',i, customer.name);
 			initCustomer(customer.id);
 		});
+		agencies.forEach((agency,i)=>{
+			console.log('agency refs binding',i,agency.name)
+			initAgency(agency.id)
+		})
 
 		// return full list of places as JSON
 		res.json({ status: 200, data: [trips, reviews, agencies, customers] });
@@ -51,8 +55,10 @@ router.get("/", async (req, res) => {
 });
 
 // initialize trip function
+//		binds reviews to trip doc
+//		binds agency to trip doc
 const initTrip = async (id) => {
-	console.log("trip / review update");
+	console.log("trip / review and agency update");
 	const trip = await Trip.findById(id);
 	const reviews = await Review.find({ trip_name: trip.name }).exec();
 	const agency = await Agency.findOne({ name: trip.agency }).exec();
@@ -72,12 +78,27 @@ const initTrip = async (id) => {
 };
 
 // initialize review
-// TODO when relations set up
+// 		TODO post MVP bind author to review 
 
 // initialize agency
-// TODO when relations set up
+// 		binds offered trips to agency docs
+// 		TODO post mvp - bind reviews of trips offered to agency
+const initAgency = async (id) => {
+	console.log("agency / trip update");
+	const agency = await Agency.findById(id);
+	const trips = await Trip.find({ agency: agency.name });
+	if (trips.length > 0) {
+		const tripIds = trips.map((trip) => trip._id);
+		await Agency.findByIdAndUpdate(id, {
+			$addToSet: { trips_ref: { $each: tripIds } },
+		});
+	} else {
+		console.log({ status: 404, msg: "no trips for this agency" });
+	}
+};
 
-// initialize customer function
+// initialize customer
+//		binds booked trips to customer doc
 const initCustomer = async (id) => {
 	console.log("customer / trip update");
 	const customer = await Customer.findById(id);

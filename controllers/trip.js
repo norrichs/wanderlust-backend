@@ -4,7 +4,7 @@ const Trip = require("../models/trip");
 const Review = require("../models/review");
 const Agency = require("../models/agency");
 
-///INDEX, populated///
+///INDEX/// trip -> review and agency relations
 router.get("/", async (req, res) => {
 	Trip.find({})
 		.populate("reviews_ref")
@@ -16,7 +16,7 @@ router.get("/", async (req, res) => {
 		});
 });
 
-///  SHOW trip with relations ///
+///  SHOW /// trip -> review and agency relations
 router.get("/:id", async (req, res) => {
 	console.log("trip / get populated trip data");
 	// Get the trip and retrieve the associated trips
