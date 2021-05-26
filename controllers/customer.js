@@ -5,23 +5,46 @@ const Trip = require("../models/trip");
 
 // All routes here appended to <url>/customer
 
-///INDEX///
+///INDEX///  customer->trip relations
+
 router.get("/", async (req, res) => {
-	const allCustomers = await Customer.find({});
-	res.json({
-		status: 200,
-		data: allCustomers,
-	});
+	console.log("customer / get populated trip data");
+	// Get the customer and retrieve the associated trips
+	await Customer.find({})
+		.populate("booked_trips_ref")
+		.exec((err, allCustomers) => {
+			if (err) {
+				console.log(err);
+				res.json({ status: 404, msg: "no customers?" });
+			}
+			console.log("trips");
+			res.json({
+				status: 200,
+				data: allCustomers,
+			});
+		});
 });
 
-/// SHOW ///
+
+///  SHOW /// customer->trip relations
 router.get("/:id", async (req, res) => {
-	const customer = await Customer.findById(req.params.id);
-	res.json({
-		status: 200,
-		data: customer,
-	});
+	console.log("customer / get populated trip data");
+	// Get the customer and retrieve the associated trips
+	await Customer.findById(req.params.id)
+		.populate("booked_trips_ref")
+		.exec((err, customer) => {
+			if (err) {
+				console.log(err);
+				res.json({ status: 404, msg: "no booked trips" });
+			}
+			console.log("trips");
+			res.json({
+				status: 200,
+				data: customer,
+			});
+		});
 });
+
 
 /// POST ///
 router.post("/", async (req, res) => {
@@ -57,27 +80,9 @@ router.delete("/:id", async (req, res) => {
 	});
 });
 
-///  SHOW customer->trip relations
-router.get("/:id/trips", async (req, res) => {
-	console.log("customer / get populated trip data");
-	// Get the customer and retrieve the associated trips
-	await Customer.findById(req.params.id)
-		.populate("booked_trips_ref")
-		.exec((err, customer) => {
-			if (err) {
-				console.log(err);
-				res.json({ status: 404, msg: "no booked trips" });
-			}
-			console.log("trips");
-			res.json({
-				status: 200,
-				data: customer,
-			});
-		});
-});
 
 /// UPDATE Bind trips to a customer ///
-router.put("/:id/addTrips", async (req, res) => {
+router.put("/:id/addRefs", async (req, res) => {
 	console.log("customer / trip update");
 	const customer = await Customer.findById(req.params.id);
 	if (customer.booked_trips.length > 0) {
