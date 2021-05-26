@@ -8,6 +8,7 @@ const customerSchema = new Schema({
 		last: String,
 	},
 	email: String,
+	avatar: String,
 	booked_trips: [String],
 	booked_trips_ref: [
 		{

@@ -4,24 +4,26 @@
 		"password": "ieatpaintchips",
 		"name": { "first": "Ben", "last": "Norrichs" },
 		"booked_trips": [
-			"Macaguanigua River",
-			"Máximo River",
-			"Yumurí River",
+			"Rio Cauto",
+			"Rio Almendares",
 			"Almendares River",
-			"El Yunque"
-		]
+			"Toa River",
+			"Sagua la Grande"
+		],
+		"avatar": "https://norrichs.com/img/ben_brownshirt800.jpg"
 	},
 	{
 		"username": "barbaro",
 		"password": "codeforfunandprofit",
 		"name": { "first": "Barbaro", "last": "Reyes" },
 		"booked_trips": [
-			"Río de la Palma",
-			"Toa River",
-			"Río de la Palma",
-			"Saramaguacán River",
-			"Yumurí River"
-		]
+			"Río Jatibonico del Norte",
+			"Pico Turquino",
+			"Pico Turquino",
+			"Varadero",
+			"Pan de Guajaibon"
+		],
+		"avatar": ""
 	},
 	{
 		"username": "mika",
@@ -29,22 +31,24 @@
 		"name": { "first": "Mika", "last": "Smith" },
 		"booked_trips": [
 			"Mayarí River",
-			"Mantua River",
-			"Mantua River",
-			"Gran Piedra",
-			"Tarará River"
-		]
+			"Toa River",
+			"Rio Cauto",
+			"Tarará River",
+			"Bacuranao River"
+		],
+		"avatar": ""
 	},
 	{
 		"username": "daniel",
 		"password": "backenddaddy100",
 		"name": { "first": "Daniel", "last": "Gavin" },
 		"booked_trips": [
-			"Canímar River",
-			"Canímar River",
-			"Holguin",
-			"Holguin",
-			"Sagua la Chica River"
-		]
+			"Rio Yumuri",
+			"Rio Cauto",
+			"Bacuranao River",
+			"Havana",
+			"Tarará River"
+		],
+		"avatar": ""
 	}
 ]
