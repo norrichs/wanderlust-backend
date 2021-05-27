@@ -7,7 +7,7 @@ const customerController = require("./controllers/customer")
 const reviewController = require("./controllers/review")
 const tripsController = require("./controllers/trip")
 const seedController = require("./controllers/seed")
-
+const AuthRouter = require('./controllers/user')
 const app = express();
 const PORT = process.env.PORT
 //imports
@@ -23,7 +23,7 @@ app.use(morgan('dev'))
 app.get("/", (req, res) => {
     res.json({ hello: "Hello World!" });
   });
-
+app.use('/auth',AuthRouter)
 app.use("/agency", agencyController)
 app.use("/customer", customerController)
 app.use("/review", reviewController)
