@@ -1,0 +1,6 @@
+# ----
+# Automatically Generated .dropboxignore file at Sun 30 May 2021 02:27:07 PM EDT
+# ----
+/node_modules
+.env
+# ----
